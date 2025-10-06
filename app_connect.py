@@ -20,7 +20,7 @@ try:
         port=5432
     )
     cursor = connection.cursor()
-    print("✅ Successfully connected to RDS Aurora PostgreSQL database!")
+    print("Successfully connected to RDS Aurora PostgreSQL database!")
 
     # Test a simple query
     cursor.execute("SELECT version();")
@@ -28,7 +28,7 @@ try:
     print("Database version:", record)
 
 except Exception as e:
-    print("❌ Error connecting to database:", e)
+    print("Error connecting to database:", e)
 
 finally:
     if connection:
