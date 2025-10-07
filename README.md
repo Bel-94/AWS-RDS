@@ -103,7 +103,7 @@ Read the full walkthrough here → [AWS RDS Setup guide](https://medium.com/@nti
 
 ---
 
-##### Author
+#### Author
 **Belinda Ntinyari** – [Medium](https://medium.com/@ntinyaribelinda) | [LinkedIn](https://www.linkedin.com/in/belinda-ntinyari/) | [X](https://x.com/NtinyariBelinda)
 
 ---
