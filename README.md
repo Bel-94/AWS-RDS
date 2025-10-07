@@ -27,8 +27,8 @@ It’s part of my cloud learning journey where I explore practical AWS setups fr
 ### 1 Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/aws-rds-demo.git
-cd aws-rds-demo
+git clone https://github.com/Bel-94/AWS-RDS
+cd AWS-RDS
 ```
 
 ### 2 Configure environment variables
@@ -77,4 +77,4 @@ finally:
 ```
 
 #### Example Output
-![Example Output](images/connectedsuccessfully.jpg)
+![Example Output](images/newappconnect.jpg)
