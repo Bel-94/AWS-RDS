@@ -24,14 +24,14 @@ It’s part of my cloud learning journey where I explore practical AWS setups fr
 
 ## Setup Instructions
 
-### 1 Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Bel-94/AWS-RDS
 cd AWS-RDS
 ```
 
-### 2 Configure environment variables
+### 2. Configure environment variables
 - Create **.env** file in the project root and add:
 
 ```bash
@@ -47,7 +47,7 @@ DB_PASS=your-password
 
 ---
 
-#### Example Python Script to Check if your RDS Database is successfully connected
+### 3. Example Python Script to Check if your RDS Database is successfully connected
 
 ```bash
 import psycopg2, os
@@ -81,7 +81,7 @@ finally:
 
 ![Example Output](images/newappconnect.jpg)
 
-#### Insert sample data 
+### 4. Insert sample data 
 - Use the provided **insert_data.py** script to create and populate a users table.
 
 ```bash
@@ -91,3 +91,6 @@ python insert_data.py
 #### Sample output
 
 ![Sample output](images/newdemodata.jpg)
+
+### Related blog post
+Read the full walkthrough here → [AWS RDS Set-up](https://medium.com/@ntinyaribelinda/from-development-to-deployment-choosing-the-right-database-strategy-rds-e290b5ecdf69#c89b-584c486d37ed)
