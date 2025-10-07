@@ -42,6 +42,7 @@ DB_PASS=your-password
 ```
 
 **Important:** Never commit your **.env** file
+
 **Add it to .gitignore for security**
 
 ---
@@ -79,3 +80,14 @@ finally:
 #### Example Output
 
 ![Example Output](images/newappconnect.jpg)
+
+#### Insert sample data 
+- Use the provided **insert_data.py** script to create and populate a users table.
+
+```bash
+python insert_data.py
+```
+
+#### Sample output
+
+![Sample output](images/newdemodata.jpg)
