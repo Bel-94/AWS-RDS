@@ -31,6 +31,8 @@ git clone https://github.com/Bel-94/AWS-RDS
 cd AWS-RDS
 ```
 
+---
+
 ### 2. Configure environment variables
 - Create **.env** file in the project root and add:
 
@@ -81,6 +83,8 @@ finally:
 
 ![Example Output](images/newappconnect.jpg)
 
+---
+
 ### 4. Insert sample data 
 - Use the provided **insert_data.py** script to create and populate a users table.
 
@@ -92,5 +96,18 @@ python insert_data.py
 
 ![Sample output](images/newdemodata.jpg)
 
+---
+
 ### Related blog post
-Read the full walkthrough here → [AWS RDS Set-up](https://medium.com/@ntinyaribelinda/from-development-to-deployment-choosing-the-right-database-strategy-rds-e290b5ecdf69#c89b-584c486d37ed)
+Read the full walkthrough here → [AWS RDS Setup guide](https://medium.com/@ntinyaribelinda/from-development-to-deployment-choosing-the-right-database-strategy-rds-e290b5ecdf69#c89b-584c486d37ed)
+
+---
+
+##### Author
+**Belinda Ntinyari** – [Medium](https://medium.com/@ntinyaribelinda) | [LinkedIn](https://www.linkedin.com/in/belinda-ntinyari/) | [X](https://x.com/NtinyariBelinda)
+
+---
+
+#### License
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
